@@ -80,7 +80,7 @@ $(function () {
                 }
                 // 提交成功后处理代码
                 layer.msg('恭喜您!登录成功!');
-                alert('恭喜您!登录成功!')
+
                 //    保存token,未来的接口要使用token
                 localStorage.setItem('token', res.token);
                 // 跳转
